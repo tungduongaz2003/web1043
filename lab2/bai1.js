@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="bai1.js"></script>
-</head>
-<body>
-    <script>
-      // enter a, b, c
+// enter a, b, c
 let a1 = prompt("Enter a: ");
 let b1 = prompt("Enter b: ");
 let c1 = prompt("Enter c: ");
@@ -22,7 +11,9 @@ let delta = b*b - 4*a*c;
 
 if(delta < 0) { // truong hop delta < 0
     document.write("Phuong trinh vo nghiem");
-}else /*delta > hoac =0*/ if(delta == 0){// delta = 0
+}else /*delta > hoac =0*/ 
+
+if(delta == 0){// delta = 0
     let x = -(b/(2*a));
     document.write("Phuong trinh co nghiem kep:" + x);
 }else{//delta > 0
@@ -31,6 +22,3 @@ if(delta < 0) { // truong hop delta < 0
     // nghiem thu 2
     let x2 = (-b - Math.sqrt(delta))/(2*a);
 }
-    </script>
-</body>
-</html>
