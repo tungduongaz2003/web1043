@@ -1,5 +1,5 @@
-function tinhtb(tb) {
-    document.writeln("Xét học lực bằng switch case");
+ tinhtb(tb) {
+    docfunctionument.writeln("Xét học lực bằng switch case");
     switch (tb) {
       case (10, 9):
         document.writeln("Giỏi");
